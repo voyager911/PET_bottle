@@ -8,14 +8,15 @@ body {
     padding:20px;
 }
 #container{
-    position:relative;
+    position:absolute;
     width:600px;
     height:400px;
-    border:30px solid #333;
+    border:3px solid #333;
     overflow:hidden;
-    padding:0;
+    top:50%;
+    left:50%;
+    margin:-200px 0 0 -300px; //居中
 }
-
 #list {
     position: absolute;
     z-index: 1;
@@ -35,7 +36,7 @@ body {
     height:10px;
     width:100px;
 }
-#bottons span{
+#buttons span{
     float:left;
     margin-right:5px;
     width:10px;
